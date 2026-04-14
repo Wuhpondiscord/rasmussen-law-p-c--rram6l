@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rasmussen Law P.C. | Trusted Attorney in Edmore & Lakeview, MI</title>
+    <meta name="description" content="Expert legal services in Edmore, MI. Specializing in Criminal Defense, Family Law, Real Estate, and Estate Planning. Over 35 years of local legacy. Call Jourdan Rasmussen today.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS (SaaS Aesthetic) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        display: ['Outfit', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#f0fdf4',
+                            100: '#dcfce7',
+                            500: '#22c55e', // Vibrant Green - Ag/Growth nod
+                            600: '#16a34a',
+                            900: '#14532d',
+                        },
+                        dark: '#0f172a', // Slate 900
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="font-sans text-slate-600 bg-slate-50 antialiased selection:bg-brand-500 selection:text-white">
+
+    <!-- Navigation (Minimal SaaS Style) -->
+    <nav class="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-slate-200/60">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8 h-20 flex items-center justify-between">
+            <a href="#" class="font-display font-bold text-2xl text-dark tracking-tight">
+                Rasmussen<span class="text-brand-500">.</span>Law
+            </a>
+            <div class="hidden md:flex gap-8 font-medium text-sm text-slate-500">
+                <a href="#services" class="hover:text-dark transition-colors">Practice Areas</a>
+                <a href="#about" class="hover:text-dark transition-colors">Our Legacy</a>
+            </div>
+            <a href="#contact" id="cta-button-nav" class="cta-action hidden md:inline-flex items-center justify-center px-5 py-2.5 text-sm font-medium text-white bg-dark rounded-full hover:bg-brand-500 transition-all duration-300">
+                Get Counsel
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section (Variant B: Asymmetric, Graphic-driven) -->
+    <section class="pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden relative">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8 relative z-10 flex flex-col lg:flex-row items-center gap-16">
+            <div class="lg:w-1/2">
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-50 border border-brand-100 text-brand-600 text-xs font-semibold uppercase tracking-wider mb-6">
+                    <span class="w-2 h-2 rounded-full bg-brand-500"></span> Serving Montcalm County
+                </div>
+                <h1 class="font-display text-5xl lg:text-7xl font-extrabold text-dark leading-[1.1] tracking-tight">
+                    Big-City Expertise.<br>
+                    <span class="text-slate-400">Small-Town Trust.</span>
+                </h1>
+                <p class="mt-6 text-lg md:text-xl text-slate-500 max-w-lg leading-relaxed">
+                    Direct access to specialized legal strategy in Edmore, MI. Navigating complex transitions, property, and business law without the corporate disconnect.
+                </p>
+                <div class="mt-10 flex flex-wrap gap-4">
+                    <a href="#contact" id="cta-button-hero" class="cta-action px-8 py-4 bg-brand-500 text-white rounded-xl font-medium shadow-lg shadow-brand-500/30 hover:bg-brand-600 hover:-translate-y-0.5 transition-all duration-300">
+                        Schedule Consultation
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Abstract Visual representation instead of standard law photo -->
+            <div class="lg:w-1/2 w-full relative">
+                <div class="aspect-square w-full max-w-md mx-auto bg-white rounded-[2.5rem] shadow-2xl p-8 relative border border-slate-100">
+                    <div class="absolute -top-6 -right-6 bg-dark text-white p-6 rounded-3xl shadow-xl transform rotate-3">
+                        <p class="font-display text-4xl font-bold">35+</p>
+                        <p class="text-sm text-slate-300 font-medium">Years Local Legacy</p>
+                    </div>
+                    <!-- Minimalist graphic elements -->
+                    <div class="h-full w-full bg-slate-50 rounded-2xl border border-slate-100 flex flex-col justify-end p-6 relative overflow-hidden">
+                        <div class="absolute top-0 right-0 w-32 h-32 bg-brand-100 rounded-bl-full opacity-50"></div>
+                        <div class="space-y-3 relative z-10">
+                            <div class="h-3 w-1/3 bg-slate-200 rounded-full"></div>
+                            <div class="h-3 w-3/4 bg-slate-200 rounded-full"></div>
+                            <div class="h-3 w-1/2 bg-brand-500 rounded-full"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services (SaaS Bento Box Layout) -->
+    <section id="services" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="mb-16 max-w-2xl">
+                <h2 class="font-display text-3xl md:text-4xl font-bold text-dark mb-4">Focused Legal Capabilities</h2>
+                <p class="text-slate-500 text-lg">Specialized guidance tailored for the unique needs of residents and business owners in Edmore, Lakeview, and the greater Montcalm area.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Bento Box 1: Family Law (Large) -->
+                <div class="md:col-span-2 bg-slate-50 rounded-3xl p-8 border border-slate-100 hover:border-brand-200 transition-colors group">
+                    <div class="w-12 h-12 bg-white rounded-xl shadow-sm flex items-center justify-center mb-6 text-brand-500 group-hover:scale-110 transition-transform">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                    </div>
+                    <h3 class="font-display text-2xl font-bold text-dark mb-2">Family Law & Divorce</h3>
+                    <p class="text-slate-500">Navigating difficult family transitions with strategic, compassionate representation. We protect your assets and your peace of mind.</p>
+                </div>
+
+                <!-- Bento Box 2: Estate Planning -->
+                <div class="bg-brand-50 rounded-3xl p-8 border border-brand-100">
+                    <div class="w-12 h-12 bg-white rounded-xl shadow-sm flex items-center justify-center mb-6 text-brand-500">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                    </div>
+                    <h3 class="font-display text-2xl font-bold text-dark mb-2">Estate Planning</h3>
+                    <p class="text-slate-600">Secure probate processing and forward-thinking estate planning for Montcalm County families.</p>
+                </div>
+
+                <!-- Bento Box 3: Real Estate -->
+                <div class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm">
+                    <h3 class="font-display text-xl font-bold text-dark mb-2">Real Estate</h3>
+                    <p class="text-slate-500 text-sm">Protecting property owners, buyers, and sellers through complex transactions, boundary disputes, and zoning issues.</p>
+                </div>
+
+                <!-- Bento Box 4: Criminal Defense -->
+                <div class="bg-dark rounded-3xl p-8 border border-slate-800 text-white relative overflow-hidden">
+                    <div class="absolute -right-4 -bottom-4 w-24 h-24 bg-slate-800 rounded-full blur-2xl"></div>
+                    <h3 class="font-display text-xl font-bold mb-2 relative z-10">Criminal Defense</h3>
+                    <p class="text-slate-400 text-sm relative z-10">Aggressive, localized defense against criminal charges. High-stakes representation when it matters most.</p>
+                </div>
+
+                <!-- Bento Box 5: Ag & Marijuana -->
+                <div class="bg-slate-50 rounded-3xl p-8 border border-slate-100">
+                    <h3 class="font-display text-xl font-bold text-dark mb-2">Agricultural & Marijuana Law</h3>
+                    <p class="text-slate-500 text-sm">Modern legal expertise bridging traditional farming operations and emerging regulatory frameworks in Michigan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About / USP Section -->
+    <section id="about" class="py-24 bg-slate-50 border-t border-slate-100">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8 flex flex-col md:flex-row gap-16 items-center">
+            <div class="md:w-1/2 space-y-6">
+                <h2 class="font-display text-3xl md:text-4xl font-bold text-dark">Led by Jourdan Rasmussen.</h2>
+                <p class="text-lg text-slate-600">Continuing the esteemed legacy of Moore Law, we blend 35 years of established community roots with cutting-edge legal strategies.</p>
+                <div class="space-y-4 pt-4">
+                    <div class="flex items-start gap-4">
+                        <div class="w-8 h-8 rounded-lg bg-brand-100 text-brand-600 flex items-center justify-center shrink-0 mt-1">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-dark">Direct Attorney Access</h4>
+                            <p class="text-sm text-slate-500">No layers of paralegals. Speak directly to the attorney handling your case.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <div class="w-8 h-8 rounded-lg bg-brand-100 text-brand-600 flex items-center justify-center shrink-0 mt-1">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-dark">Modern Specialization</h4>
+                            <p class="text-sm text-slate-500">Advanced knowledge in emerging fields like Marijuana Law alongside traditional practices.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="md:w-1/2 w-full h-[400px] bg-slate-200 rounded-3xl overflow-hidden relative border border-slate-200">
+                <!-- Abstract Representation of Edmore Office / Community -->
+                <div class="absolute inset-0 bg-gradient-to-br from-slate-100 to-slate-200"></div>
+                <div class="absolute inset-0 flex items-center justify-center">
+                    <div class="text-center">
+                        <p class="font-display font-bold text-xl text-slate-400 tracking-widest uppercase mb-2">Location</p>
+                        <p class="font-display text-4xl text-slate-800 font-extrabold">Edmore, MI</p>
+                        <p class="mt-2 text-slate-500">Serving Montcalm County</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section (SaaS Style) -->
+    <section id="contact" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="bg-dark rounded-[2.5rem] overflow-hidden flex flex-col lg:flex-row shadow-2xl">
+                <!-- Contact Info Side -->
+                <div class="lg:w-5/12 p-10 lg:p-16 relative">
+                    <div class="absolute inset-0 bg-brand-500/10 blur-3xl rounded-full translate-x-1/2 -translate-y-1/2"></div>
+                    <h2 class="font-display text-3xl md:text-4xl font-bold text-white mb-6 relative z-10">Start Your Case Strategy.</h2>
+                    <p class="text-slate-400 mb-10 relative z-10">Fill out the form to request a consultation. We provide prompt, confidential evaluations for all legal matters.</p>
+                    
+                    <div class="space-y-6 relative z-10 text-slate-300">
+                        <div class="flex items-start gap-4">
+                            <svg class="w-6 h-6 text-brand-500 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                            <div>
+                                <p class="font-bold text-white">Office Location</p>
+                                <p class="text-sm mt-1">414 E Main St,<br>Edmore, MI 48829</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Form Side -->
+                <div class="lg:w-7/12 bg-white p-10 lg:p-16 border-l border-slate-200/10 rounded-t-[2.5rem] lg:rounded-t-none lg:rounded-l-[2.5rem] -ml-4 lg:-ml-8 relative z-20 shadow-[-20px_0_40px_rgba(0,0,0,0.1)]">
+                    <form id="contact-form-variant-b" class="space-y-5">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                            <div class="space-y-2">
+                                <label for="firstName" class="text-sm font-semibold text-dark">First Name</label>
+                                <input type="text" id="firstName" class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-brand-500 focus:border-brand-500 outline-none transition-all" placeholder="John">
+                            </div>
+                            <div class="space-y-2">
+                                <label for="lastName" class="text-sm font-semibold text-dark">Last Name</label>
+                                <input type="text" id="lastName" class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-brand-500 focus:border-brand-500 outline-none transition-all" placeholder="Doe">
+                            </div>
+                        </div>
+                        <div class="space-y-2">
+                            <label for="email" class="text-sm font-semibold text-dark">Email Address</label>
+                            <input type="email" id="email" class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-brand-500 focus:border-brand-500 outline-none transition-all" placeholder="john@example.com">
+                        </div>
+                        <div class="space-y-2">
+                            <label for="inquiryType" class="text-sm font-semibold text-dark">Legal Matter</label>
+                            <select id="inquiryType" class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-brand-500 focus:border-brand-500 outline-none transition-all text-slate-600">
+                                <option>Family Law / Divorce</option>
+                                <option>Criminal Defense</option>
+                                <option>Estate Planning / Probate</option>
+                                <option>Real Estate</option>
+                                <option>Agricultural / Marijuana Law</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                        <div class="space-y-2">
+                            <label for="message" class="text-sm font-semibold text-dark">Message Details</label>
+                            <textarea id="message" rows="4" class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-brand-500 focus:border-brand-500 outline-none transition-all" placeholder="Briefly describe your situation..."></textarea>
+                        </div>
+                        <button type="submit" id="cta-submit-form" class="cta-action w-full bg-brand-500 hover:bg-brand-600 text-white font-medium py-4 rounded-xl transition-all shadow-lg shadow-brand-500/20 mt-2">
+                            Request Consultation
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-slate-200 py-12">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-6 text-sm text-slate-500">
+            <div class="font-display font-bold text-xl text-dark">
+                Rasmussen<span class="text-brand-500">.</span>Law
+            </div>
+            <p>&copy; 2026 Rasmussen Law P.C. All rights reserved.</p>
+            <div class="flex gap-4">
+                <a href="#" class="hover:text-brand-500 transition-colors">Privacy Policy</a>
+                <a href="#" class="hover:text-brand-500 transition-colors">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- SiteFlow Analytics Tracker -->
+    <script>
+      window._sf_config = {
+        username: 'wuhp',
+        businessId: 'rram6l',
+        variant: 'B',
+        origin: 'https://ais-dev-iu7tq7kd2cpslaq72zxpwz-212988073263.us-west2.run.app'
+      };
+    </script>
+    <script src="https://ais-dev-iu7tq7kd2cpslaq72zxpwz-212988073263.us-west2.run.app/tracker.js" async></script>
+  </body>
+</html>
